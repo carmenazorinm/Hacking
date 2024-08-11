@@ -48,6 +48,6 @@ We see that some usernames are shown, one of them is the administrator. Let's tr
 
 Great! We have the administrator's password. Now we can login as the administrator to solve the laboratory.
 
-<img src="/home/kali/Documents/PortSwigger/SQLInjection/lab6/image7.png" alt="image" />
+<img src="./image7.png" alt="image" />
 
 Well done! Great progress :)

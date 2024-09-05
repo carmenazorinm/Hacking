@@ -11,10 +11,6 @@ To identify the open ports on the target machine, you can use`nmap`:
 
 `nmap -p- -T4 -n --min-rate 1000 10.129.33.157`
 
-And the result is:
-
-<img src="nmap.png" />
-
 The results show multiple open TCP ports:
 <img src="nmap.png" />
 
@@ -36,7 +32,7 @@ With ports 135 and 445 open, we know that the SMB service is running, allowing f
 
 The `-N` flag allows anonymous login, and `-L` lists available shares.
 
-<img src="smbclientsSharenames.png" />
+<img src="smbclientSharenames.png" />
 
 Even though the connection failed, it displayed some share names. To connect to the "backups" share:
 
